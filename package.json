@@ -1,6 +1,6 @@
 {
   "name": "@ahdcreative/babel-preset-ahd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A babel preset for transforming your JavaScript for AHDCreative",
   "main": "index.js",

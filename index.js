@@ -58,7 +58,7 @@ module.exports = declare((api, options) => {
 
             removePropTypes ? [require('babel-plugin-transform-react-remove-prop-types'), Object.assign({
                 mode: 'wrap',
-                additionalLibraries: ['airbnb-prop-types'],
+                additionalLibraries: ['ahd-prop-types'],
                 ignoreFilenames: ['node_modules'],
             }, removePropTypes)] : null,
 
