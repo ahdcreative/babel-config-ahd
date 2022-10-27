@@ -42,5 +42,9 @@
     "@ahdcreative/eslint-config-ahd-base": "^1.0.7",
     "eslint-plugin-import": "^2.26.0",
     "safe-publish-latest": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ahdcreative/babel-preset-ahd.git"
   }
 }
