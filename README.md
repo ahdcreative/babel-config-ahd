@@ -2,7 +2,7 @@
 
 > A babel preset for transforming your JavaScript for AHDCreative.
 
-Currently contains transforms for all [stage 4](https://tc39.github.io/ecma262/) (ES2018) and [stage 3](https://github.com/tc39/proposals#active-proposals) syntax that is permitted in the [Airbnb Style Guide](https://github.com/airbnb/javascript). Please note that if usage of a stage 3 proposal is not explicitly mentioned in the Airbnb Style Guide, then it will not be enabled here. Additionally, stage 4 syntax that is excluded is as follows:
+Currently contains transforms for all [stage 4](https://tc39.github.io/ecma262/) (ES2018) and [stage 3](https://github.com/tc39/proposals#active-proposals) syntax that is permitted in the [AHD Style Guide](https://github.com/ahdcreative/javascript). Please note that if usage of a stage 3 proposal is not explicitly mentioned in the AHD Style Guide, then it will not be enabled here. Additionally, stage 4 syntax that is excluded is as follows:
 - generators: `regenerator-runtime` is too heavyweight for our use.
 - `async/await`: `regenerator-runtime` is too heavyweight for our use, and [async-to-promises](https://www.npmjs.com/package/babel-plugin-async-to-promises) is not yet complete enough to be safely used.
 - async iterators: depends on both generators and `async function`s
