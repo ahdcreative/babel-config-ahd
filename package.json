@@ -12,7 +12,7 @@
     "lint": "eslint ."
   },
   "keywords": ["babel", "es6", "es2015", "javascript"],
-  "author": "ahdcreative <hello@ahd-creative.agency> (http://ahd-creative.agency/)",
+  "author": "ahdcreative <hello@ahd-creative.agency> (https://ahd-creative.agency/)",
   "license": "MIT",
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.19.0",
