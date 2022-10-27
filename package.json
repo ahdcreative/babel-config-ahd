@@ -1,0 +1,46 @@
+{
+  "name": "babel-preset-ahd",
+  "version": "1.0.0",
+  "description": "A babel preset for transforming your JavaScript for AHDCreative",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "safe-publish-latest",
+    "pretest": "npm run lint",
+    "test": "npm run tests-only",
+    "tests-only": "node . && echo 'parsed successfully'",
+    "lint": "eslint ."
+  },
+  "keywords": ["babel", "es6", "es2015", "javascript"],
+  "author": "ahdcreative <hello@ahd-creative.agency> (http://ahd-creative.agency/)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.19.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-proposal-numeric-separator": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.19.4",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.18.9",
+    "@babel/plugin-transform-classes": "^7.19.0",
+    "@babel/plugin-transform-exponentiation-operator": "^7.18.6",
+    "@babel/plugin-transform-member-expression-literals": "^7.18.6",
+    "@babel/plugin-transform-property-literals": "^7.18.6",
+    "@babel/plugin-transform-property-mutators": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/plugin-transform-template-literals": "^7.18.9",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/runtime": "^7.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/runtime": "^7.20.0",
+    "eslint": "^8.26.0",
+    "@ahdcreative/eslint-config-ahd-base": "^1.0.7",
+    "eslint-plugin-import": "^2.26.0",
+    "safe-publish-latest": "^2.0.0"
+  }
+}
